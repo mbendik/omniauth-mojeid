@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.summary = %Q{MojeID strategy for OmniAuth}
   gem.description = %q{OmniAuth strategy to work with http://www.mojeid.cz}
   gem.homepage = 'https://github.com/petrbela/omniauth-mojeid'
-  
+
   gem.authors = ['Petr Bela']
   gem.email = 'github@petrbela.com'
   gem.license = "MIT"
@@ -17,19 +17,19 @@ Gem::Specification.new do |gem|
 
   gem.required_rubygems_version = Gem::Requirement.new('>= 1.3.6') if gem.respond_to?(:required_rubygems_version=)
 
-  gem.add_dependency 'omniauth', '~> 1.1.4'
-  gem.add_dependency 'rack-openid', '~> 1.3.1'
-  gem.add_dependency 'ruby-openid', '~> 2.1.8'
-  gem.add_dependency 'omniauth-openid', '~> 1.0.1'
-  gem.add_dependency 'json', '~> 1.7.7'
+  gem.add_dependency 'omniauth'
+  gem.add_dependency 'rack-openid'
+  gem.add_dependency 'ruby-openid'
+  gem.add_dependency 'omniauth-openid'
+  gem.add_dependency 'json'
 
-  gem.add_development_dependency 'rack-test', '~> 0.5'
-  gem.add_development_dependency 'rspec', '~> 2.8.0'
-  gem.add_development_dependency 'rake', '~> 0.8'
-  gem.add_development_dependency 'rdiscount', '~> 1.6'
-  gem.add_development_dependency 'simplecov', '~> 0.4'
-  gem.add_development_dependency 'webmock', '~> 1.7'
-  gem.add_development_dependency 'yard', '~> 0.7'
+  gem.add_development_dependency 'rack-test', '~> 0.8'
+  gem.add_development_dependency 'rspec', '~> 3.7.0'
+  gem.add_development_dependency 'rake', '~> 12.3'
+  gem.add_development_dependency 'rdiscount', '~> 2.2'
+  gem.add_development_dependency 'simplecov', '~> 0.16'
+  gem.add_development_dependency 'webmock', '~> 3.3'
+  gem.add_development_dependency 'yard', '~> 0.9'
   # gem 'guard'
   # gem 'guard-rspec'
   # gem 'growl'
